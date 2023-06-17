@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./index.css">
+
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="main.js" type="module"></script>
+
+<title>PEC TEC</title> 
+</head>
+<body>
+<div class="container">
+    <div style="width: 45vw;">
+            <label>Set point (Celsius): </label>
+            <input type="text" id="setPointEntry"><br><br>
+        <button id="setPointSubmit">Submit</button>
+        <br>
+        <br>
+    </div>
+    <div style="width: 45vw;"></div>
+</div>
+<!-- <div style="width: 500px;"><canvas id="dimensions"></canvas></div><br/> -->
+<div class="container">
+    <div style="width: 45vw;">
+        <canvas id="tempGraph" style="margin-right: 1em;"></canvas>
+        <br>
+        <button id="resetTemp">Reset Zoom</button>
+    </div>
+    <div style="width: 45vw;">
+        <canvas id="PIDGraph" style="margin-left: 1em;"></canvas>
+        <br>
+        <button id="resetPID">Reset Zoom</button>
+    </div>
+</div>
+
+        
+</body>
+</html>
